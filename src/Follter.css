@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+}
+ul li {
+    padding: 10px;
+    color: #adb5bd;
+    transition: all 2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    text-decoration: none;
+}
+li:hover{
+    color:#35373a ;
+    text-decoration: none;
+    font-size: 20px;
+}
+@media screen and (max-width:976px) and (min-width:650px) {
+ #img{
+        margin-top: 10pc;
+        margin-left: -10pc;
+        width: 20pc;
+        /* border: 2px solid beige; */
+ }   
+}
+@media screen and (max-width:649px) and (min-width:0px) {
+    #img{
+        display: none;
+        margin-left: -13pc;
+        width: 40vw;
+        margin-top: 140px;
+    }
+}

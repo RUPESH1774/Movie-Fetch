@@ -1,0 +1,19 @@
+
+#Nav:hover{
+    transition: all 2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    /* background-color: black; */
+    color: antiquewhite;
+
+
+}
+.active{
+    color: antiquewhite;
+    text-shadow: 8px 9px 15px white ;
+
+}
+#brand:hover{
+    animation:shakeX;
+    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+   animation-delay: 0s;
+   animation-duration: 2s;
+    border: 2px dashed grey;}

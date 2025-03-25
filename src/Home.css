@@ -1,0 +1,9 @@
+#card:hover{
+transform: scale(90%);
+transition: all 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+cursor: pointer;
+box-shadow: 12px 19px 16px 10px rgb(42, 48, 51);
+}
+#pagination li a{
+    border: none;
+}

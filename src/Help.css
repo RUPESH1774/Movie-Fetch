@@ -1,0 +1,13 @@
+#help{
+    box-shadow: 12px 20px 12px black;
+    animation: flips 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+@keyframes flips {
+    from{transform: rotateX(280deg);}
+    to{transform: rotate(0deg);}
+}
+#sec-img{
+    filter: drop-shadow(22px 17px 2px black);
+}

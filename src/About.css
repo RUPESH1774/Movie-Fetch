@@ -1,0 +1,42 @@
+html{
+    overflow-x: hidden;
+}
+h3{
+    animation:flipInX;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    box-shadow:-5px 14px 18px 2px #006494;
+    margin-bottom: 20px;
+}
+#scroll{
+    /* border: 2px solid black; */
+    scroll-behavior: smooth;
+    animation: vehi 2s cubic-bezier(0.39, 0.575, 0.565, 1);
+    animation-duration: 2s;
+    animation-timeline: scroll();
+    cursor: pointer;
+    transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+@keyframes vehi{
+    7%{padding: 230px;}
+    50%{padding: 0px;}
+    70%{padding: 0px;}
+    76%{padding-left: 200px;}
+}
+#scrolls{
+    scroll-behavior: smooth;
+    animation: vehis 3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    animation-duration: 2s;
+    animation-timeline: scroll();
+    cursor: pointer;
+    transition: all 3s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+ li{
+    display: flex;
+    border-left: 3px dashed black;
+    border-bottom: 3px dashed black;
+}
+h2::first-letter{
+    color: #006494;
+    font-size: 3pc;
+}
